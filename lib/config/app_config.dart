@@ -2,7 +2,7 @@
 class AppConfig {
   // Configure your JSON URL here
   // Set to null to use only local sample data
-  static const String? jsonUrl = 'https://example.com/widget.json';
+  static const String? jsonUrl = 'https://github.com/moritzmessneroqds/poc_json/blob/main/simple_test.json';
   
   // Alternative: Use local sample data only
   // static const String? jsonUrl = null;

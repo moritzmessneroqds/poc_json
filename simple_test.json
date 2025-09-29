@@ -1,12 +1,63 @@
 {
   "type": "Scaffold",
+  "appBar": {
+    "type": "AppBar",
+    "title": {
+      "type": "Text",
+      "data": "Example 2"
+    },
+    "backgroundColor": "#FF5722"
+  },
   "body": {
-    "type": "Center",
+    "type": "Container",
+    "decoration": {
+      "type": "BoxDecoration",
+      "gradient": {
+        "type": "LinearGradient",
+        "begin": "topRight",
+        "end": "bottomLeft",
+        "colors": ["#FFF3E0", "#FFE0B2"]
+      }
+    },
     "child": {
-      "type": "ElevatedButton",
+      "type": "Center",
       "child": {
-        "type": "Text",
-        "data": "Test Button"
+        "type": "Column",
+        "mainAxisAlignment": "center",
+        "children": [
+          {
+            "type": "Icon",
+            "icon": "Icons.favorite",
+            "size": 80.0,
+            "color": "#FF5722"
+          },
+          {
+            "type": "SizedBox",
+            "height": 20.0
+          },
+          {
+            "type": "Text",
+            "data": "Example 2",
+            "style": {
+              "fontSize": 32.0,
+              "fontWeight": "bold",
+              "color": "#D84315"
+            }
+          },
+          {
+            "type": "SizedBox",
+            "height": 10.0
+          },
+          {
+            "type": "Text",
+            "data": "Orange Theme Design",
+            "style": {
+              "fontSize": 18.0,
+              "color": "#E64A19",
+              "fontStyle": "italic"
+            }
+          }
+        ]
       }
     }
   }
