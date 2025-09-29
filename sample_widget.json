@@ -1,0 +1,75 @@
+{
+  "type": "Scaffold",
+  "appBar": {
+    "type": "AppBar",
+    "title": {
+      "type": "Text",
+      "data": "Dynamic Widget Demo"
+    },
+    "backgroundColor": "#2196F3"
+  },
+  "body": {
+    "type": "Container",
+    "alignment": "center",
+    "padding": "20,20,20,20",
+    "child": {
+      "type": "Column",
+      "mainAxisAlignment": "center",
+      "crossAxisAlignment": "center",
+      "children": [
+        {
+          "type": "Text",
+          "data": "Welcome to Dynamic Widget Demo!",
+          "style": {
+            "fontSize": 24.0,
+            "fontWeight": "bold",
+            "color": "#1976D2"
+          }
+        },
+        {
+          "type": "SizedBox",
+          "height": 20.0
+        },
+        {
+          "type": "Row",
+          "mainAxisAlignment": "center",
+          "children": [
+            {
+              "type": "ElevatedButton",
+              "click_event": "route://productDetail?goods_id=123",
+              "child": {
+                "type": "Text",
+                "data": "Product Detail"
+              }
+            },
+            {
+              "type": "SizedBox",
+              "width": 16.0
+            },
+            {
+              "type": "ElevatedButton",
+              "click_event": "action://showDialog",
+              "child": {
+                "type": "Text",
+                "data": "Show Dialog"
+              }
+            }
+          ]
+        },
+        {
+          "type": "SizedBox",
+          "height": 20.0
+        },
+        {
+          "type": "Text",
+          "data": "This UI is rendered from JSON data using the dynamic_widget package.",
+          "style": {
+            "fontSize": 16.0,
+            "color": "#666666"
+          },
+          "textAlign": "center"
+        }
+      ]
+    }
+  }
+}

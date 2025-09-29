@@ -1,0 +1,13 @@
+{
+  "type": "Scaffold",
+  "body": {
+    "type": "Center",
+    "child": {
+      "type": "ElevatedButton",
+      "child": {
+        "type": "Text",
+        "data": "Test Button"
+      }
+    }
+  }
+}
